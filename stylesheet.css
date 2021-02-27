@@ -1,0 +1,266 @@
+header{
+  color: rgb(18, 3, 46);
+  background-color: #efefef;
+}
+
+body{
+  color: #333;
+  font-family: serif;
+  margin:0px;
+}
+
+section{
+  text-align: center;
+    /*文字を中央揃え*/
+}
+
+li{
+  display: block;
+}
+ /*リストの黒丸が消えないときに入力*/
+
+footer{
+  text-align: center;
+  border-top: 1px solid black;
+  background-color: #efefef;
+}
+
+.navigation{
+  width:900px;
+  height:80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /*logoとagendaを横並びにさせたいときはその親要素（navigation）のdisplayをflexにする*/
+}
+
+.logo{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.agenda{
+  display: flex;
+  align-items: flex-end;
+  /*このdisplayとaline-itemsの設定でagenda ulが下揃えになる*/
+  margin-left: 10px;
+}
+
+.agenda ul{
+  display: flex;
+  margin:0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.agenda ul li{
+  margin-left: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.opening{
+  height: 600px;
+  background-color: steelblue;
+}
+
+.opening h1{
+  margin:0;
+  padding-top: 200px;
+  font-size: 32px;
+  color: white;
+}
+
+.opening p{
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+}
+
+.clum1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.clumdiv1{
+  width:900px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clumdiv1 div{
+  width: 500px;
+  margin-left: 50px;
+}
+
+.clumdiv1 h2{
+  font-size: 20px;
+  text-align: left;
+  font-weight: 1000;
+}
+
+.clumdiv1 p{
+  width:480px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.clum2{
+  background-color:lavender;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.clumdiv2{
+  width:900px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clumdiv2 div{
+  width: 500px;
+  margin-right: 50px;
+}
+
+.clumdiv2 h2{
+  font-size: 20px;
+  text-align: left;
+  font-weight: 1000;
+}
+
+.clumdiv2 p{
+  width:480px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.clum3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.clumdiv3{
+  width:900px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clumdiv3 div{
+  width: 500px;
+  margin-left: 50px;
+}
+
+.clumdiv3 h2{
+  font-size: 20px;
+  text-align: left;
+  font-weight: 1000;
+}
+
+.clumdiv3 p{
+  width:480px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.clum4{
+  background-color:lavender;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.clumdiv4{
+  width:900px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clumdiv4 div{
+  width: 500px;
+  margin-right: 50px;
+}
+
+.clumdiv4 h2{
+  font-size: 20px;
+  text-align: left;
+  font-weight: 1000;
+}
+
+.clumdiv4 p{
+  width:480px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footersec1{
+  font-size: 4px;
+}
+
+.footersec1 div{
+  width: 900px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright{
+}
+
+.company{
+  text-align: left;
+}
+
+.company p{
+  margin-left: auto;
+  /*文字の右寄せ*/
+}
+
+.footersec2{
+}
+
+.footersec2div{
+  width:900px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toroku{
+  width:450px;
+  font-size: 6px;
+  text-align: left;
+}
+
+.nintei{
+  width:450px;
+  font-size: 6px;
+  text-align: left;
+}
+
+.footersec2 img{
+  margin-left: 10px;
+}
